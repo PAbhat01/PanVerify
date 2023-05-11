@@ -4,3 +4,4 @@ opencv_python==4.7.0.72
 Pillow==9.5.0
 pytesseract==0.3.10
 Requests==2.30.0
+gunicorn==19.7.1
