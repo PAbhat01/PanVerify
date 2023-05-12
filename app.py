@@ -61,7 +61,6 @@ def card(img):
     return pnum,dob
 
 
-
 @app.route('/', methods =['GET','POST'])
 def hello_world():
     details=""
