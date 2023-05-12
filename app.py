@@ -34,7 +34,7 @@ def card(img):
     ptn2=re.compile("[0-9]")
 
     #img_array=asarray(img)
-    pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+    pytesseract.pytesseract.tesseract_cmd = r"C:/Program Files/Tesseract-OCR/tesseract.exe"
    
     data =pytesseract.image_to_string(img, lang='eng',config=r'-l eng --oem 3 --psm 6')
 
