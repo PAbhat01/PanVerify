@@ -34,7 +34,7 @@ def card(img):
     ptn2=re.compile("[0-9]")
 
     #img_array=asarray(img)
-    pytesseract.pytesseract.tesseract_cmd = '/app/.apt/usr/bin/tesseract'
+    pytesseract.pytesseract.tesseract_cmd = "C:/Program Files/Tesseract-OCR/"
    
     data =pytesseract.image_to_string(img, lang='eng',config=r'-l eng --oem 3 --psm 6')
 
@@ -104,4 +104,4 @@ def hello_world():
 
 
 if __name__== "__main__":      
-    app.run(debug=False,host="0.0.0.0")
+    app.run(debug=True,host="0.0.0.0")
