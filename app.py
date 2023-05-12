@@ -83,8 +83,8 @@ def hello_world():
         
         
         
-        headers = {"clientId": "clientId",
-           "secretKey":"Key",
+        headers = {"clientId": "e42c92364321426a5228ce09d9ca24bd:ab2e7b51b865d93fc7f624020c1a886f",
+           "secretKey":"jN2sKpDHAulLR3fsRPOfVdO2zQ5WWPuiHoK4oVsfd9FbvayPWJVu4PjFPMJGPaUNQ",
            "Content-Type": "application/json"}
         url='https://api.emptra.com/panCard/V3'
         data = {"panNumber":pnum}
